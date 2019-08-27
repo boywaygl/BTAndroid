@@ -4,13 +4,14 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <EditText
+    <EditText android:id="@+id/edtsoA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:hint="Số A :"
         android:textSize="20sp" />
     <EditText
+        android:id="@+id/edtsoB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Số B :"
@@ -18,46 +19,62 @@
         android:layout_marginTop="10dp"
         />
     <TextView
+        android:id="@+id/tv1"
         android:background="@color/colorAccent"
-        android:hint="@string/app_name"
+        android:text="@string/app_name"
+        android:textColor="#fff"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="40sp" />
     <Button
+        android:id="@+id/btntong"
+        android:onClick="btntong"
         android:layout_marginTop="10dp"
         android:background="#878282"
         android:hint="Tổng 2 số"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
     <Button
+        android:id="@+id/btnhieu"
+        android:onClick="btnhieu"
         android:layout_marginTop="10dp"
         android:background="#878282"
+
         android:hint="Hiệu 2 số"
         android:layout_width="match_parent"
-        android:layout_height="40dp" />
+        android:layout_height="40dp"
+        />
     <Button
+        android:onClick="btntich"
+        android:id="@+id/btntich"
         android:layout_marginTop="10dp"
         android:background="#878282"
         android:hint="Tích 2 số"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
     <Button
+        android:id="@+id/btnthuong"
+        android:onClick="btnthuong"
         android:layout_marginTop="10dp"
         android:background="#878282"
         android:hint="Thương 2 số"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
     <Button
+        android:id="@+id/btnucln"
+        android:onClick="btnucln"
         android:layout_marginTop="10dp"
         android:background="#878282"
         android:hint="Ước chung lớn nhất"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
     <Button
+        android:id="@+id/btnexit"
+        android:onClick="btnexit"
         android:layout_marginTop="10dp"
         android:background="#878282"
         android:hint="Thoát chương trình"
-
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
 
