@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         TextView txt = (TextView)findViewById(R.id.tv1);
         txt.setText((a+b)+"");
     }
-    public void btnhieu(View v){
+    public void btnHieu(View v){
         EditText edtsoA = (EditText)findViewById(R.id.edtsoA);
         int a = Integer.parseInt(edtsoA.getText()+"");
         EditText edtsoB = (EditText)findViewById(R.id.edtsoB);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         TextView txt = (TextView)findViewById(R.id.tv1);
         txt.setText((a-b)+"");
     }
-    public void btntich(View v){
+    public void btnTich(View v){
         EditText edtsoA = (EditText)findViewById(R.id.edtsoA);
         int a = Integer.parseInt(edtsoA.getText()+"");
         EditText edtsoB = (EditText)findViewById(R.id.edtsoB);
@@ -40,14 +40,11 @@ public class MainActivity extends AppCompatActivity {
         TextView txt = (TextView)findViewById(R.id.tv1);
         txt.setText((a*b)+"");
     }
-    public void btnthuong(View v){
         EditText edtsoA = (EditText)findViewById(R.id.edtsoA);
         int a = Integer.parseInt(edtsoA.getText()+"");
         EditText edtsoB = (EditText)findViewById(R.id.edtsoB);
         int b = Integer.parseInt(edtsoB.getText()+"");
         TextView txt = (TextView)findViewById(R.id.tv1);
-        txt.setText((a/b)+"");
+        txt.setText((a-b)+"");
     }
-    public void btnexit(View v){
-        finish();}
 }
