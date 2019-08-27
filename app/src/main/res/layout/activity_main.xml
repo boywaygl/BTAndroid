@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Số A :"
+        android:textSize="20sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số B :"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:background="@color/colorAccent"
+        android:hint="@string/app_name"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40sp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Tổng 2 số"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Hiệu 2 số"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Tích 2 số"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Thương 2 số"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Ước chung lớn nhất"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#878282"
+        android:hint="Thoát chương trình"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
